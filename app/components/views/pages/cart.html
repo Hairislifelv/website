@@ -1,0 +1,48 @@
+<!-- ORDER SECTION -->
+<section class="clearfix orderArea">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-xs-12">
+        <form>
+          <div class="panel panel-default cartInfo">
+            <div class="panel-heading patternbg">your Order</div>
+            <div class="panel-body tableArea">
+              <div>
+                <table class="table">
+                  <tbody>
+                    <tr ng-repeat="(key, item) in $ctrl.items | groupBy: 'id'">
+
+                      <td><a href="single-product.html" class="cartImage"><img src="img/products/cart-product-1.jpg" alt="Image cart"></a></td>
+                      <td><a href="single-product.html">Lorem ipsum dolor sit consectetur.</a> <br> <span>Qnt: {{item.length}}</span></td>
+                      <td><span class="price">{{item[0].price}}</span></td>
+                      <td>
+                        <button type="button" class="close" remove-item index="{{$index}}" aria-label="Close">
+                          <span aria-hidden="true" class="hidden-xs">×</span>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <form>
+          <div class="panel panel-default cartInfo">
+            <div class="panel-heading patternbg">Total <span class="pull-right"><cart-total></cart-total></span></div>
+            <div class="panel-body">
+              <p>Click on a coupon code to apply</p>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Apply Coupon Code" aria-describedby="basic-addon221">
+                <button type="submit" class="input-group-addon" id="basic-addon221">Submit</button>
+              </div>
+              <a ui-sref="checkout" class="btn btn-primary btn-block">Checkout</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,6 @@
+- [ ] Add social links to footer
+- [ ] Use proper email and phone in header
+- [ ] Add logo
+- [ ] link cart button to cart
+- [ ] ngCart?
+- [ ] count items in cart and display

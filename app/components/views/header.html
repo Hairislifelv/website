@@ -1,0 +1,64 @@
+<!-- HEADER -->
+<header id="pageTop" class="header">
+
+  <!-- TOP INFO BAR -->
+  <div class="top-info-bar">
+    <div class="container">
+      <div class="top-bar-right">
+        <ul class="list-inline">
+          <li><a href="mailto:info@hairislifelv.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@hairislifelv.com</a></li>
+          <li><span><i class="fa fa-phone" aria-hidden="true"></i>+1 234 567 8900</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
+    <div class="container">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" ui-sref="home"><img src="img/logo.png" alt="logo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li ui-sref-active="active">
+            <a ui-sref="about">About</a>
+          </li>
+          <li ui-sref-active="active">
+            <a ui-sref="services">Services</a>
+          </li>
+          <li ui-sref-active="active">
+            <a ui-sref="boutique">Boutique</a>
+          </li>
+          <li ui-sref-active="active">
+            <a ui-sref="gallery">Gallery</a>
+          </li>
+          <li ui-sref-active="active">
+            <a ui-sref="contact">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Cart button -->
+      <div class="cart_btn">
+        <a ui-sref="cart">
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+          <span class="badge">
+            <cart-count></cart-count>
+          </span>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,32 @@
+{
+  "name": "hairislifelv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hairislifelv/website.git"
+  },
+  "author": "Andreas Beasley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hairislifelv/website/issues"
+  },
+  "homepage": "https://github.com/Hairislifelv/website#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.10",
+    "angular": "^1.6.6",
+    "angular-filter": "^0.5.17",
+    "angular-local-storage": "^0.7.1",
+    "angular-resource": "^1.6.6",
+    "angular-selectbox": "0.0.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
