@@ -27,6 +27,7 @@
     "font-awesome": "^4.7.0",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "sapiocart": "^1.0.0"
   }
 }
